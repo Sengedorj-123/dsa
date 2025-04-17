@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-import { Heart, Music, Pause, Edit, X, Send, Sparkles } from "lucide-react";
+import { Heart, Music, Pause, X, Send, Sparkles } from "lucide-react";
 
 export const EnhancedLoveAnimation = () => {
   const [isPlaying, setIsPlaying] = useState(false);
